@@ -10,7 +10,7 @@ if (!defined('WB_PATH')) die(header('Location: ../../../index.php'));
 	<meta name="description" content="<?php page_description(); ?>">
 	<meta name="keywords" content="<?php page_keywords(); ?>">
 	
-	<link href="//netdna.bootstrapcdn.com/bootswatch/3.0.3/amelia/bootstrap.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/amelia/bootstrap.min.css" rel="stylesheet">
 	<style>
 	.post-top > td {
 		margin-top: 40px;
@@ -163,7 +163,7 @@ if (!defined('WB_PATH')) die(header('Location: ../../../index.php'));
 			
 			
 			ob_start();
-			//show_menu2(0,SM2_ROOT,SM2_START, null,'[if(class==menu-current){<li class="active">}else{<li>}][a][menu_title]</a>','</li>','<ul class="nav navbar-nav">','</ul>'
+			
 			show_menu2(0, SM2_CURR+1, SM2_CURR+2, null, false, false, '<h2>'.$TEXT['MORE'].'</h2><ul class="nav nav-pills nav-stacked">', '</ul>');
 			$submenu=ob_get_contents(); 
 			ob_end_clean();
@@ -183,7 +183,7 @@ if (!defined('WB_PATH')) die(header('Location: ../../../index.php'));
 		</footer>
 	</div>
 
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <?php
 if (function_exists('register_frontend_modfiles_body')) { register_frontend_modfiles_body(); } 
 ?>
