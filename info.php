@@ -3,7 +3,7 @@
 $template_directory			= 'madoven';
 $template_name				= 'Madoven';
 $template_function			= 'template';
-$template_version			= '1.1.1';
+$template_version			= '1.2';
 $template_platform			= '2.8';
 $template_author			= 'pattyland';
 $template_license			= 'MIT';
