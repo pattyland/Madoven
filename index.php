@@ -10,7 +10,7 @@ if (!defined('WB_PATH')) die(header('Location: ../../../index.php'));
 	<meta name="description" content="<?php page_description(); ?>">
 	<meta name="keywords" content="<?php page_keywords(); ?>">
 	
-	<link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/amelia/bootstrap.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 	<style>
 	.post-top > td {
 		margin-top: 40px;
