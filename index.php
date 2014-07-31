@@ -60,7 +60,7 @@ if (!defined('WB_PATH')) die(header('Location: ../../../index.php'));
 		    <?php if(FRONTEND_LOGIN AND !$wb->is_authenticated() AND VISIBILITY != 'private' ) { ?>
 		    	<li><button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#logindialog"><?php echo $TEXT['LOGIN']; ?></button></li>
 		    <?php } ?>
-		    <?php if (is_numeric(FRONTEND_SIGNUP)) { ?>
+		    <?php if (is_numeric(FRONTEND_SIGNUP) && !$wb->is_authenticated()) { ?>
 			    	<li><a href="<?php echo SIGNUP_URL; ?>"><?php echo $TEXT['SIGNUP']; ?></a></li>
 			    		
 			<?php } ?>
