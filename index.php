@@ -19,6 +19,7 @@ if (!defined('WB_PATH')) die(header('Location: ../../../index.php'));
 		padding-top: 40px;
 	}
 	</style>
+	<link href="/templates/madoven/custom.css" rel="stylesheet">
 	<?php
 	if (function_exists('register_frontend_modfiles')) {
 		register_frontend_modfiles('css');
@@ -183,7 +184,7 @@ if (!defined('WB_PATH')) die(header('Location: ../../../index.php'));
 		</footer>
 	</div>
 
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <?php
 if (function_exists('register_frontend_modfiles_body')) { register_frontend_modfiles_body(); } 
 ?>
