@@ -1,7 +1,7 @@
 Madoven
 ====
 
-Madoven is Bootstrap template for WebsiteBaker.
+Madoven is a Bootstrap template for WebsiteBaker.
 Demo: http://wb.pattyland.de
 
 ## Install
